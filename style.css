@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+/*Zerando Css*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*Cores*/
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+/*Fundo da Pagina*/
+html{
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif ;
+  color: var(--purple);
+  background-color: var(--body-bg-color);
+}
+
+/*Conteudo Principal*/
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*padding-top: 50px;*/
+  height: 100vh;
+}
+
+.perfil{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.perfil .foto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #BB99DD;
+  border-radius: 100px;
+  padding: 3px;
+}
+
+.perfil .foto img{
+  width: 200px;
+  height: 200px;
+}
+
+.perfil p{
+  padding-top: 15px;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding-top: 33px;
+}
+
+.links button{
+  width: 325px;
+  height: 50px;
+  border: 2px solid #BB99DD;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  color: #BB99DD;
+  background: var(--body-bg-color);
+  cursor: pointer;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  gap: 30px;
+  padding-top: 30px;
+  
+}
+
+.social img{
+  cursor: pointer;
+}
